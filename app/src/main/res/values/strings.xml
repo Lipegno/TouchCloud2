@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Touchcloud</string>
+    <string name="loading_data">Loading your data ...</string>
+    <string name="tagged">Tagged</string>
+    <string name="viewd">Viewed</string>
+    <string name="tagged_note">Manage your tagged files through the Dropbox website‏</string>
+    <string name="start_message">"Start tagging your files and folders by simply using the \'Share\' option in Dropbox"</string>
+    <string name="action_settings">Settings</string>
+    <string name="tagged_files">" Tagged files "</string>
+    <string name="option_debug">debug yo</string>
+    <string name="warning_title">Warning</string>
+    <string name="missing_file_title">Missing file</string>
+    <string name="private_tag_title">Private Tag</string>
+    <string name="open_file_fail">Cannot open file</string>
+    <string name="scan_main">Waiting for a Touchcloud tag</string>
+    <string name="scan_command">Just bring a tag close to your device</string>
+    <string name="premission_private">The contents of this tag will only be accessible to you</string>
+    <string name="premission_public">This tag will be accessible by everyone</string>
+    <string name="premission_label">Private tag</string>
+	<string name="share"> share <u>share</u> </string>
+	<string name="folder_warning">Touchcloud does not support the sharing of folders. You can indivudally share each file <u>OR</u> compress the folder and then shared it through Touchcloud</string>
+	<string name="broken_link_warning">The file you are trying to access is no longer made available by its owner</string>
+	<string name="no_app_message">Touchcloud cannot find any application to open the tagged file</string>
+	<string name="private_tag">The tag you are trying to open was made private by its owner</string>
+	<string name="question_1">Take a photo of the tag location</string>
+	<string name="question_1b">Why are you re-tagging this object or location?</string>
+	<string name="question_2">Why this object or location for your cloud data?</string>
+	<string name="question_3">What kind of data did you tag?</string>
+	<string name="question_4">Did you have this data in the cloud before installing Touchcloud?</string>
+	<string name="question_5_a">This tag is public because?</string>
+	<string name="question_5_b">This tag is private because?</string>
+	<string name="survey_label">"  Brief survey  "</string>
+	<string name="question_5_hint_private">The tag is on my work desk, but I don\'t want anyone accessing my work-in-progress\nIt is my shopping list</string>
+	<string name="question_5_hint_public">I want to share it with work colleagues\nI will be tagging a poster</string> 
+	<string name="take_photo">Take a photo</string>
+	<string name="update_photo">Update your photo</string>
+	<string name="radio_positive">Yes</string>
+	<string name="radio_negative">No</string>
+	<string name="missing_field_warning">Please fill up the required field</string>
+	<string name="missing_photo_warning">Please take a photo of the tag location</string>
+	<string name="back">"  Back  "</string>
+	<string name="next">"  Next  "</string>
+	<string name="close">"  Close  "</string>
+	<string name="finish">" Finish "</string>
+	<string name="reading_tag">Reading tag</string>
+	<string name="cancel">"  Cancel  "</string>
+	<string name="opening_folder">Opening folder</string>
+	<string name="opening_file">Opening file</string>
+	<string name="tag_tip_title">Tip</string>
+	<string name="tag_tip">" Favorite your Dropbox tagged files so Touchcloud can open them even faster"</string>
+	<string name="tag_success">"" successfully tagged"</string>
+	<string name="folder">Folder</string>
+	<string name="file">File</string>
+	<string name="hi">Hi</string>
+	<string name="back_pressed">Press the Home button to minimize the download</string>
+	<string name="fail_download_title">Failed to download file</string>
+	<string name="fail_download_warning">Please make sure you are connected to the internet</string>
+    <string name="open_in_device">Open Here</string>
+    <string name="open_remote">Open in PC</string>
+	<string name="chose_device_question">Where do you want to open the</string>
+</resources>
+

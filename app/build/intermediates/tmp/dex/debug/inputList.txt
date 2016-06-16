@@ -1,0 +1,6 @@
+C:\Users\Filipe\Documents\AndroidStudioWorkspace\TouchCloud2\app\build\intermediates\classes\debug
+C:\Users\Filipe\Documents\AndroidStudioWorkspace\TouchCloud2\app\build\intermediates\pre-dexed\debug\json_simple-1.1-21e49be4391fefd1a6e004ba36f6ea3b9bacb2f4.jar
+C:\Users\Filipe\Documents\AndroidStudioWorkspace\TouchCloud2\app\build\intermediates\pre-dexed\debug\ndeftools-1.2.3-876101cb9e0bdf4c439cfb4a66597bd791c073f3.jar
+C:\Users\Filipe\Documents\AndroidStudioWorkspace\TouchCloud2\app\build\intermediates\pre-dexed\debug\dropbox-android-sdk-1.5.4-3655363c67f8fcae53d843053a0d6ca247cd371e.jar
+C:\Users\Filipe\Documents\AndroidStudioWorkspace\TouchCloud2\app\build\intermediates\pre-dexed\debug\classes-d1e5d67b29f8641c68aa468a26f15d67bc8ef172.jar
+C:\Users\Filipe\Documents\AndroidStudioWorkspace\TouchCloud2\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-8fae18e3b7e7863692f4f53ea24d78707230b791.jar

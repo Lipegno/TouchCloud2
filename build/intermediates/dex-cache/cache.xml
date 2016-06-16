@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Filipe\Documents\AndroidStudioWorkspace\TouchCloud2\app\libs\json_simple-1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5e303a03d04e6788dddfa3655272580ae0fc13bb">
+        <dex dex="C:\Users\Filipe\Documents\AndroidStudioWorkspace\TouchCloud2\app\build\intermediates\pre-dexed\debug\json_simple-1.1-21e49be4391fefd1a6e004ba36f6ea3b9bacb2f4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Filipe\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\Filipe\Documents\AndroidStudioWorkspace\TouchCloud2\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-8fae18e3b7e7863692f4f53ea24d78707230b791.jar" />
+    </item>
+    <item
+        jar="C:\Users\Filipe\Documents\AndroidStudioWorkspace\TouchCloud2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\3.1.59\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2dd7b1a9ea65bb03d9cd16df777eeaf537a1fc81">
+        <dex dex="C:\Users\Filipe\Documents\AndroidStudioWorkspace\TouchCloud2\app\build\intermediates\pre-dexed\debug\classes-d1e5d67b29f8641c68aa468a26f15d67bc8ef172.jar" />
+    </item>
+    <item
+        jar="C:\Users\Filipe\Documents\AndroidStudioWorkspace\TouchCloud2\app\libs\dropbox-android-sdk-1.5.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2e7a56b4f6e226c233195ba0c9417a9b28183ce5">
+        <dex dex="C:\Users\Filipe\Documents\AndroidStudioWorkspace\TouchCloud2\app\build\intermediates\pre-dexed\debug\dropbox-android-sdk-1.5.4-3655363c67f8fcae53d843053a0d6ca247cd371e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Filipe\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\Filipe\Documents\AndroidStudioWorkspace\TouchCloud2\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-8fae18e3b7e7863692f4f53ea24d78707230b791.jar" />
+    </item>
+    <item
+        jar="C:\Users\Filipe\Documents\AndroidStudioWorkspace\TouchCloud2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\3.1.59\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2dd7b1a9ea65bb03d9cd16df777eeaf537a1fc81">
+        <dex dex="C:\Users\Filipe\Documents\AndroidStudioWorkspace\TouchCloud2\app\build\intermediates\pre-dexed\debug\classes-d1e5d67b29f8641c68aa468a26f15d67bc8ef172.jar" />
+    </item>
+    <item
+        jar="C:\Users\Filipe\Documents\AndroidStudioWorkspace\TouchCloud2\app\libs\dropbox-android-sdk-1.5.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2e7a56b4f6e226c233195ba0c9417a9b28183ce5">
+        <dex dex="C:\Users\Filipe\Documents\AndroidStudioWorkspace\TouchCloud2\app\build\intermediates\pre-dexed\debug\dropbox-android-sdk-1.5.4-3655363c67f8fcae53d843053a0d6ca247cd371e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Filipe\Documents\AndroidStudioWorkspace\TouchCloud2\app\libs\ndeftools-1.2.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1342b5b70a68e06a3d3cb1a22958077cdca94067">
+        <dex dex="C:\Users\Filipe\Documents\AndroidStudioWorkspace\TouchCloud2\app\build\intermediates\pre-dexed\debug\ndeftools-1.2.3-876101cb9e0bdf4c439cfb4a66597bd791c073f3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Filipe\Documents\AndroidStudioWorkspace\TouchCloud2\app\libs\ndeftools-1.2.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1342b5b70a68e06a3d3cb1a22958077cdca94067">
+        <dex dex="C:\Users\Filipe\Documents\AndroidStudioWorkspace\TouchCloud2\app\build\intermediates\pre-dexed\debug\ndeftools-1.2.3-876101cb9e0bdf4c439cfb4a66597bd791c073f3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Filipe\Documents\AndroidStudioWorkspace\TouchCloud2\app\libs\json_simple-1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5e303a03d04e6788dddfa3655272580ae0fc13bb">
+        <dex dex="C:\Users\Filipe\Documents\AndroidStudioWorkspace\TouchCloud2\app\build\intermediates\pre-dexed\debug\json_simple-1.1-21e49be4391fefd1a6e004ba36f6ea3b9bacb2f4.jar" />
+    </item>
+
+</items>

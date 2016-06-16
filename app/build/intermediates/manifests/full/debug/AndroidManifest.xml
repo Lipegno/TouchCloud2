@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.quintal.androidtouchcloud"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="14" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.example.gcm.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.gcm.permission.C2D_MESSAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/CustomActivityTheme" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="6587000" />
+
+        <activity
+            android:name="com.quintal.androidtouchcloud.mainActivities.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <data android:mimeType="text/*" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dropbox.client2.android.AuthActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask" >
+            <intent-filter>
+
+                <!-- Change this to be db- followed by your app key -->
+                <data android:scheme="db-j6tx3t0y6gjllse" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.quintal.androidtouchcloud.mainActivities.FileOpeningActivity"
+            android:label="Opening File"
+            android:launchMode="singleInstance" >
+        </activity>
+        <activity
+            android:name="com.quintal.androidtouchcloud.nfc.NFCWriter"
+            android:excludeFromRecents="true"
+            android:label="Tagging Content"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.quintal.androidtouchcloud.nfc.NFCReader"
+            android:label="Reading Tag"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="aveiro.m-iti.org"
+                    android:scheme="http" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.TAG_DISCOVERED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="application/com.quintal.androidtouchcloud.nfc" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.quintal.androidtouchcloud.mainActivities.TagUpdatedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.quintal.androidtouchcloud.mainActivities.FailedUpdateActivity"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.quintal.androidtouchcloud.mainActivities.UserReportActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.quintal.androidtouchcloud.dialogs.NotificationActivity" />
+        <activity
+            android:name="com.quintal.androidtouchcloud.mainActivities.EndOfTheRoad"
+            android:excludeFromRecents="true"
+            android:noHistory="true" />
+
+        <receiver
+            android:name="com.quintal.androidtouchcloud.gcm.GCMMessageBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.example.gcm" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.quintal.androidtouchcloud.gcm.GCMIntentService" />
+    </application>
+
+</manifest>
